@@ -194,8 +194,7 @@ class _WorldStatesState extends State<WorldStates>
 
 class Reuseable extends StatelessWidget {
   String title, value;
-  Reuseable({Key? key, required this.title, required this.value})
-    : super(key: key);
+  Reuseable({super.key, required this.title, required this.value});
   @override
   Widget build(BuildContext context) {
     return Column(

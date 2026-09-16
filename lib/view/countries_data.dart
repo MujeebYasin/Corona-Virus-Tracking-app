@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 
 class countriesData extends StatefulWidget {
-  const countriesData({Key? key}) : super(key: key);
+  const countriesData({super.key});
 
   @override
   State<countriesData> createState() => _countriesDataState();

@@ -13,7 +13,7 @@ class DetailScreen extends StatefulWidget {
       todayDeaths;
 
   DetailScreen({
-    Key? key,
+    super.key,
     required this.name,
     required this.image,
     required this.totalcases,
@@ -24,7 +24,7 @@ class DetailScreen extends StatefulWidget {
     required this.test,
     required this.todayRecovered,
     required this.todayDeaths,
-  }) : super(key: key);
+  });
 
   @override
   State<DetailScreen> createState() => _DetailScreenState();

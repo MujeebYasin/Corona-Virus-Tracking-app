@@ -48,7 +48,7 @@ class _SplashScreenState extends State<SplashScreen>
               animation: _controller,
               child: Padding(
                 padding: const EdgeInsets.only(bottom: 50),
-                child: Container(
+                child: SizedBox(
                   height: 200,
                   width: 200,
                   child: const Center(

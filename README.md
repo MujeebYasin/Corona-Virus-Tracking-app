@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # corona_virus
 
 A new Flutter project.
@@ -15,3 +16,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Corona-Vrius-Tracking-app
+A Flutter app that tracks COVID-19 cases and affected people using real-time data.
+>>>>>>> ae55a9288f6961087845b104aea4249ecfc84bc0
